@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c99a8b9e-b1b0-44c7-ba2d-1af75b61e23f" name="Default Changelist" comment="" />
+    <list default="true" id="c99a8b9e-b1b0-44c7-ba2d-1af75b61e23f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercicios/com/db1/db1start/Exercicios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercicios/com/db1/db1start/Exercicios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/Exercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/Exercicios.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +20,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TaLyQcE9Fg62bewnvqvNVs0drL" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DB1 Start/Java/db1StartJava/Aula02/src/com/db1/db1start/Aula2.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -38,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExerciciosTest.deveRetornarAreaDoTriangulo">
+  <component name="RunManager" selected="JUnit.ExerciciosTest.deveRetornarQuantidadeVogal">
     <configuration name="ExerciciosTest.deveRetornarAreaDoTriangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercicios" />
       <extension name="coverage">
@@ -71,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciciosTest.deveRetornarTextoInvertido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExerciciosTest.deveRetornarQuantidadeVogal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercicios" />
       <extension name="coverage">
         <pattern>
@@ -81,13 +90,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.ExerciciosTest" />
-      <option name="METHOD_NAME" value="deveRetornarTextoInvertido" />
+      <option name="METHOD_NAME" value="deveRetornarQuantidadeVogal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciciosTest.deveRetornarValorMenorDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExerciciosTest.deveRetornarQuantidadedeLetra7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercicios" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +106,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.ExerciciosTest" />
-      <option name="METHOD_NAME" value="deveRetornarValorMenorDouble" />
+      <option name="METHOD_NAME" value="deveRetornarQuantidadedeLetra7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciciosTest.deveRetornarValorMenorDoubleDe3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExerciciosTest.deveRetornarQuantidadedeLetraEspaco7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercicios" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +122,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.ExerciciosTest" />
-      <option name="METHOD_NAME" value="deveRetornarValorMenorDoubleDe3" />
+      <option name="METHOD_NAME" value="deveRetornarQuantidadedeLetraEspaco7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExerciciosTest.deveRetornarQuantidadeVogal" />
+        <item itemvalue="JUnit.ExerciciosTest.deveRetornarQuantidadedeLetraEspaco7" />
+        <item itemvalue="JUnit.ExerciciosTest.deveRetornarQuantidadedeLetra7" />
         <item itemvalue="JUnit.ExerciciosTest.deveRetornarAreaDoTriangulo" />
         <item itemvalue="JUnit.ExerciciosTest.deveRetornarMedia" />
-        <item itemvalue="JUnit.ExerciciosTest.deveRetornarValorMenorDoubleDe3" />
-        <item itemvalue="JUnit.ExerciciosTest.deveRetornarValorMenorDouble" />
-        <item itemvalue="JUnit.ExerciciosTest.deveRetornarTextoInvertido" />
       </list>
     </recent_temporary>
   </component>
@@ -141,5 +150,16 @@
       <updated>1573693513303</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

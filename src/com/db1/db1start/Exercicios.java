@@ -54,24 +54,13 @@ public class Exercicios {
     public Integer quantidadeLetra() {
         Integer numero = 0;
         String texto = "DB1START";
-        for (int i = 0; i < texto.length(); i++) {
-            if (texto.charAt(i) == '1' | texto.charAt(i) == '2' | texto.charAt(i) == '3' | texto.charAt(i) == '4' | texto.charAt(i) == '5' | texto.charAt(i) == '6' | texto.charAt(i) == '7' | texto.charAt(i) == '8' | texto.charAt(i) == '9') {
-                numero = numero + 1;
-            }
-        }
-        return (texto.length() - numero);
+        return texto.replaceAll("[0-9]", "").length();
     }
 
     public Integer quantidadeLetraEspaco() {
         Integer numero = 0;
         String texto = " DB1START ".trim();
-        Integer total = texto.trim().length();
-        for (int i = 0; i < total; i++) {
-            if (texto.charAt(i) == '1' | texto.charAt(i) == '2' | texto.charAt(i) == '3' | texto.charAt(i) == '4' | texto.charAt(i) == '5' | texto.charAt(i) == '6' | texto.charAt(i) == '7' | texto.charAt(i) == '8' | texto.charAt(i) == '9') {
-                numero = numero + 1;
-            }
-        }
-        return (total - numero);
+        return texto.replaceAll("[0-9]", "").length();
     }
 
     public String retornarDB1START (){
@@ -101,14 +90,9 @@ public class Exercicios {
     }
 
     public Integer quantidadeVogal(String texto) {
-        Integer vogal = 0;
-        for (int i = 0; i < texto.length(); i++) {
-            if (texto.charAt(i) == 'a'| texto.charAt(i) == 'e'| texto.charAt(i) == 'i'| texto.charAt(i) == 'o'|texto.charAt(i) == 'u'){
-                vogal ++;
-            }
-        }
-        return (texto.length()-vogal);
+        return texto.replaceAll("[^(a|e|i|o|u)]", "").length();
     }
+
     public String textoInvertido (String texto){
         StringBuilder builder = new StringBuilder(texto);
         return builder.reverse().toString();
